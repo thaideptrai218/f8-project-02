@@ -74,6 +74,15 @@ a {
     background-color: var(--animation-color);
 }
 
+.circle {
+    color: #634700;
+}
+
+.circle:active,
+.actived {
+    color: #ffb900;
+}
+
 /* Header */
 
 .header {
@@ -344,4 +353,62 @@ a {
 .courses .item .courses-btn {
     min-width: 118px;
     font-size: 1.4rem;
+}
+
+/* Comment */
+.comment {
+    padding: 96px 0;
+    background: #2e2100;
+}
+
+.comment .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment .info-block .avatar {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comment .info-block .name {
+    margin-top: 18px;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #f7f7f7;
+}
+
+.comment .info-block .desc {
+    margin-top: 4px;
+    width: 160px;
+    font-size: 1.4rem;
+    line-height: 26px;
+    color: #bfbcb3;
+}
+
+.comment .info-block .button-wrap {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 0.5rem;
+    margin-top: 28px;
+}
+
+.comment .quotes {
+    position: relative;
+    font-style: italic;
+    max-width: 740px;
+    font-size: 2.6rem;
+    line-height: 1.55;
+    color: #ffffff;
+}
+
+.comment .lololol {
+    position: absolute;
+    top: -30px;
+    left: -28px;
 }
