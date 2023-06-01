@@ -33,7 +33,7 @@ a {
 }
 
 .btn {
-    padding: 17px 8px;
+    padding: 17px 16px;
     min-width: 144px;
     display: inline-block;
     background: var(--primary-color);
@@ -42,6 +42,10 @@ a {
     font-size: 1.6rem;
     text-align: center;
     color: #ffffff;
+}
+
+.btn:hover {
+    opacity: 0.9;
 }
 
 .btn:active {
@@ -211,6 +215,13 @@ a {
     font-size: 1.8rem;
     line-height: 1.67;
     color: var(--secondary-color);
+}
+
+.hero .info-block .hero-btn {
+    min-width: 180px;
+    padding: 24px 16px;
+    font-weight: 1.8rem;
+    border-radius: 32px;
 }
 
 .hero .info-block .action-block {
