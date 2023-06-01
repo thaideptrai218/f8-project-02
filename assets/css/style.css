@@ -262,7 +262,7 @@ a {
 }
 
 .courses-header .title {
-    font-family: var(--primary-font);
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 3.8rem;
     line-height: 48px;
@@ -339,4 +339,9 @@ a {
     font-size: 1.8rem;
     line-height: 30px;
     color: var(--primary-color);
+}
+
+.courses .item .courses-btn {
+    min-width: 118px;
+    font-size: 1.4rem;
 }
